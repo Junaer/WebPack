@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log(123)})();
+(()=>{"use strict";console.log("app worked"),(new Game).start(),console.log(123)})();
