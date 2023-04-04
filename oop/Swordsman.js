@@ -4,7 +4,7 @@ class Swordsman extends Character.Character {
     type='Swordsman'
     attack = 40;
     defence = 10;
-    constructor(name, attack, defence) {
+    constructor(name) {
         super(name)
     }
 }
