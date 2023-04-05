@@ -10,7 +10,7 @@ class Character {
     }
     levelUp() {
         if (this.health == 0) {
-            throw new Error("you can't level up the dead");
+            throw new Error("Error: you can't level up the dead");
         }
         this.health = 100
         this.level = this.level += 1

@@ -13,4 +13,8 @@ zombie.damage(20)
 console.log(zombie)
 
 swordsman = new Swordsman.Swordsman('Stasyn')
-console.log(swordsman)
+
+bowerman = new Bowerman.Bowerman('Olegan')
+
+
+console.log(bowerman)
